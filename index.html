@@ -52,7 +52,7 @@
       <div>
         <img src="./images/banner.png" class="" />
         <!-- rating badge -->
-        <div class="flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 relative -top-16">
+        <div class="flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 relative -top-28 left-32 rounded-lg">
           <i class="fa-solid fa-star text-3xl text-amber-400"></i>
           <div>
             <h3 class="text-3xl">5.00</h3>
@@ -133,7 +133,7 @@
    </div>
 </section>
 <!-- Super client section -->
-<section class="my-24 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end lg:px-15 py-24 px-4">
+<section class="my-24 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end lg:px-16  lg:py-8 px-4">
 
  <div class="flex flex-col lg:flex-row gap-12 ">
   <div class="flex items-center lg:pr-28">
@@ -145,7 +145,9 @@
     <p class="text-white">
       There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. 
     </p>
-    <button class="btn btn-primary">Show All</button>
+    <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white border-0">Show All
+      <i class="fa-solid fa-arrow-trend-up"></i>
+    </button>
    </div>
   </div>
   <!-- Review container -->
@@ -184,6 +186,9 @@
  </div>
 
 </section>
+<!-- News and Events -->
+
+
   </main>
   <footer class="px-4 lg:px-48 py-10 bg-base-200 text-base-content">
     <div class="flex justify-between my-24">
@@ -193,7 +198,7 @@
         <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end text-white">Get started</button>
       </p>
     </div>
-    <div  class="footer  ">
+    <div  class="footer flex justify-between">
       <nav>
         <h6 class="footer-title">Services</h6> 
         <a class="link link-hover">Branding</a>
@@ -215,21 +220,28 @@
         <a class="link link-hover">Cookie policy</a>
       </nav> 
       <form>
-        <h6 class="footer-title">Newsletter</h6> 
-        <fieldset class="form-control w-80">
+        <h6 class="footer-title">Subscribe to our Newsletter</h6> 
+        <fieldset class="">
           <label class="label">
             <span class="label-text">Enter your email address</span>
           </label> 
           <div class="join">
-            <input type="text" placeholder="username@site.com" class="py-4 bg-transparent border-b-2 border-black outline-none" /> 
+            <input type="text" placeholder="username@site.com" class="py-4 bg-transparent border-b-2 border-black outline-none mr-3" /> 
             <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end join-item rounded-full"><i class="fa-solid fa-right-long text-white"></i></button>
+ 
           </div>
         </fieldset>
       </form>
     </div>
+
+    <div class="icons flex justify-end items-center text-3xl gap-6">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
    
-      <div class="mt-10 text-center">
-        <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      <div class="mt-10 text-sm text-gray-500 text-center">
+        <p>Copyright © 2024 - All right reserved by Tea House</p>
       </div>
   </footer>
 </body>
